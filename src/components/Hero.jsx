@@ -12,7 +12,7 @@ const Hero = () => {
                     <a href="#flavors" className="cta-button">Order Now</a>
                 </div>
                 <div className="hero-image">
-                    <img src="/hero.png" alt="Delicious Ice Cream" className="floating-img" />
+                    <img src={`${import.meta.env.BASE_URL}hero.png`} alt="Delicious Ice Cream" className="floating-img" />
                     <div className="blob"></div>
                 </div>
             </div>

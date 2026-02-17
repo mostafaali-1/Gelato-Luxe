@@ -9,7 +9,7 @@ const products = [
         price: 8.50,
         color: "#F9E4B7",
         category: "Classic",
-        image: "/images/flavors/vanilla.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/vanilla.png`
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const products = [
         price: 9.00,
         color: "#5D4037",
         category: "Chocolate",
-        image: "/images/flavors/chocolate.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/chocolate.png`
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const products = [
         price: 9.50,
         color: "#C5E1A5",
         category: "Nutty",
-        image: "/images/flavors/pistachio.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/pistachio.png`
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ const products = [
         price: 8.75,
         color: "#E1BEE7",
         category: "Floral",
-        image: "/images/flavors/honey-lavender.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/honey-lavender.png`
     },
     {
         id: 5,
@@ -45,7 +45,7 @@ const products = [
         price: 8.50,
         color: "#FFCC80",
         category: "Sweet",
-        image: "/images/flavors/salted-caramel.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/salted-caramel.png`
     },
     {
         id: 6,
@@ -54,7 +54,7 @@ const products = [
         price: 8.50,
         color: "#FFAB91",
         category: "Fruity",
-        image: "/images/flavors/strawberry.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/strawberry.png`
     },
     {
         id: 7,
@@ -63,7 +63,7 @@ const products = [
         price: 9.25,
         color: "#A5D6A7",
         category: "Tea",
-        image: "/images/flavors/matcha.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/matcha.png`
     },
     {
         id: 8,
@@ -72,7 +72,7 @@ const products = [
         price: 8.75,
         color: "#8D6E63",
         category: "Coffee",
-        image: "/images/flavors/espresso.png"
+        image: `${import.meta.env.BASE_URL}images/flavors/espresso.png`
     }
 ];
 

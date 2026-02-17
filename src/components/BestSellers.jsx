@@ -13,7 +13,7 @@ const BestSellers = () => {
 
                 <div className="best-seller-grid">
                     <div className="best-seller-item main">
-                        <img src="/images/flavors/vanilla.png" alt="Golden Vanilla" />
+                        <img src={`${import.meta.env.BASE_URL}images/flavors/vanilla.png`} alt="Golden Vanilla" />
                         <div className="best-seller-info">
                             <h3>Golden Vanilla Bean</h3>
                             <p>The timeless classic, elevated with gold leaf.</p>
@@ -22,14 +22,14 @@ const BestSellers = () => {
                     </div>
                     <div className="best-seller-sub-grid">
                         <div className="best-seller-item">
-                            <img src="/images/flavors/chocolate.png" alt="Dark Chocolate" />
+                            <img src={`${import.meta.env.BASE_URL}images/flavors/chocolate.png`} alt="Dark Chocolate" />
                             <div className="best-seller-info">
                                 <h3>Dark Midnight</h3>
                                 <p>Rich, intense, and unforgettable.</p>
                             </div>
                         </div>
                         <div className="best-seller-item">
-                            <img src="/images/flavors/pistachio.png" alt="Pistachio" />
+                            <img src={`${import.meta.env.BASE_URL}images/flavors/pistachio.png`} alt="Pistachio" />
                             <div className="best-seller-info">
                                 <h3>Pistachio Sicilian</h3>
                                 <p>Authentic nutty flavor from Italy.</p>

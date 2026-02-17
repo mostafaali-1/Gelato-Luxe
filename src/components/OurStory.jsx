@@ -6,7 +6,7 @@ const OurStory = () => {
         <section id="about" className="story-section">
             <div className="container story-container">
                 <div className="story-image">
-                    <img src="/images/story/kitchen.png" alt="Our Artisanal Kitchen" />
+                    <img src={`${import.meta.env.BASE_URL}images/story/kitchen.png`} alt="Our Artisanal Kitchen" />
                     <div className="experience-badge">
                         <span className="years">Est.</span>
                         <span className="text">2015</span>
