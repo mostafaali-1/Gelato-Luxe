@@ -1,0 +1,104 @@
+.story-section {
+    padding: 8rem 0;
+    background-color: var(--color-white);
+    overflow: hidden;
+}
+
+.story-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.story-image {
+    position: relative;
+}
+
+.story-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 0 var(--color-bg-secondary);
+    transition: transform 0.3s ease;
+}
+
+.story-image:hover img {
+    transform: translate(-10px, -10px);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background-color: var(--color-accent);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 5px solid var(--color-white);
+}
+
+.experience-badge .years {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.experience-badge .text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+}
+
+.story-content .subtitle {
+    color: var(--color-accent);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.story-content h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.story-content p {
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.story-btn {
+    background-color: transparent;
+    border: 2px solid var(--color-text-primary);
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.story-btn:hover {
+    background-color: var(--color-text-primary);
+    color: white;
+}
+
+@media (max-width: 968px) {
+    .story-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .story-image {
+        order: -1;
+    }
+}
