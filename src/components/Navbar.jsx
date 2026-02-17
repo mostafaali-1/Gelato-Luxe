@@ -15,7 +15,10 @@ const Navbar = ({ cartCount, onCartClick }) => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
-        <div className="logo">Gelato Luxe</div>
+        <div className="logo">
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Gelato Luxe Logo" className="logo-img" />
+          <span>Gelato Luxe</span>
+        </div>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#flavors">Flavors</a></li>
