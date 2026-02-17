@@ -101,4 +101,45 @@
     .story-image {
         order: -1;
     }
+
+    .story-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .story-section {
+        padding: 4rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .story-content h2 {
+        font-size: 2rem;
+    }
+
+    .story-content p {
+        font-size: 0.95rem;
+    }
+
+    .experience-badge {
+        width: 90px;
+        height: 90px;
+        bottom: -15px;
+        right: -15px;
+    }
+
+    .experience-badge .text {
+        font-size: 1.3rem;
+    }
+
+    .experience-badge .years {
+        font-size: 0.7rem;
+    }
+
+    .story-image img {
+        box-shadow: 10px 10px 0 var(--color-bg-secondary);
+    }
+
+    .story-section {
+        padding: 3rem 0;
+    }
 }

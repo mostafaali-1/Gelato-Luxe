@@ -65,3 +65,24 @@
     font-weight: 600;
     color: var(--color-text-primary);
 }
+
+@media (max-width: 768px) {
+    .testimonials-section {
+        padding: 4rem 0;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .testimonial-card {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .review-text {
+        font-size: 0.9rem;
+    }
+}

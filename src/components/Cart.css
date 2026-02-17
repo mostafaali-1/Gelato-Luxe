@@ -124,3 +124,22 @@
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+@media (max-width: 480px) {
+    .cart-sidebar {
+        max-width: 100%;
+        right: -100%;
+    }
+
+    .cart-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .total-row {
+        font-size: 1.2rem;
+    }
+
+    .cart-footer {
+        padding: 1.5rem;
+    }
+}

@@ -84,4 +84,27 @@
     .best-seller-grid {
         grid-template-columns: 1fr;
     }
+
+    .best-seller-item.main img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .best-sellers {
+        padding: 4rem 0;
+    }
+
+    .best-seller-item {
+        padding: 1.5rem;
+    }
+
+    .best-seller-sub-grid .best-seller-item img {
+        width: 80px;
+        height: 80px;
+        margin-right: 1rem;
+    }
+
+    .best-seller-info h3 {
+        font-size: 1.2rem;
+    }
 }

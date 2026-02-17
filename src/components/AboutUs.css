@@ -13,7 +13,7 @@
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-heading);
 }
 
 .about-description {
@@ -28,7 +28,7 @@
 
 .about-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
@@ -46,11 +46,45 @@
 
 .about-card h3 {
     font-size: 1.5rem;
-    color: #ff6b6b;
+    color: var(--color-accent);
     margin-bottom: 1rem;
 }
 
 .about-card p {
     color: #555;
     font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .about-us-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .about-card {
+        padding: 1.5rem;
+    }
+
+    .about-card h3 {
+        font-size: 1.2rem;
+    }
 }
