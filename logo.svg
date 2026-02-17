@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <!-- Ice cream cone -->
+  <polygon points="18,28 32,28 25,48" fill="#D4AF37" stroke="#C4A030" stroke-width="0.5"/>
+  <!-- Cone lines -->
+  <line x1="21" y1="32" x2="29" y2="44" stroke="#C4A030" stroke-width="0.5" opacity="0.5"/>
+  <line x1="29" y1="32" x2="23" y2="44" stroke="#C4A030" stroke-width="0.5" opacity="0.5"/>
+  <!-- Bottom scoop -->
+  <circle cx="25" cy="24" r="10" fill="#FF8F6B"/>
+  <!-- Top scoop -->
+  <circle cx="25" cy="15" r="8" fill="#FFAB91"/>
+  <!-- Shine -->
+  <circle cx="22" cy="13" r="2" fill="white" opacity="0.4"/>
+  <circle cx="22" cy="22" r="1.5" fill="white" opacity="0.3"/>
+  <!-- Cherry -->
+  <circle cx="25" cy="7" r="3" fill="#E53935"/>
+  <circle cx="24" cy="6" r="1" fill="white" opacity="0.4"/>
+  <!-- Stem -->
+  <path d="M25,5 Q28,2 30,3" stroke="#4CAF50" stroke-width="1" fill="none"/>
+</svg>
